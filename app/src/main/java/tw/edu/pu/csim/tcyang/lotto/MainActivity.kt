@@ -61,6 +61,7 @@ fun Play(modifier: Modifier = Modifier) {
         Text(
             text = "樂透數字(1-100)為 $lucky"
         )
+        Text("程莉芳共同編輯程式")
 
         Button(
             onClick = { lucky = (1..100).random() }
